@@ -12,15 +12,15 @@ const App = () => {
         className="App" 
         style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}
       >
-        <Logo />
-        <Button 
-          variant="contained" 
-          color="primary" 
+        <Button
+          variant="contained"
+          color="primary"
           href="https://stathead.eldatomx.com"
           sx={{ mt: 2 }}
         >
-          Go to StatHead
+          stathead.eldatomx
         </Button>
+        <Logo />
       </div>
     </ThemeProvider>
   );
