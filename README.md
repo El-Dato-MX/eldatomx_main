@@ -18,7 +18,7 @@ Before setting up the dev env, ensure you have the following installed:
 
 - **Bun** (Latest version)
 
-### Installing Bun
+### Installing Bun (MacOS & Windows)
 
 To install Bun, run the following command in your terminal:
 
@@ -26,10 +26,11 @@ To install Bun, run the following command in your terminal:
 curl -fsSL https://bun.sh/install | bash
 ```
 
-On Windows:
 To install Bun on windows paste this into terminal:
 
+```sh
 powershell -c "irm bun.sh/install.ps1|iex"
+```
 
 Bun requires a minimum of Windows 10 version 1809.
 
