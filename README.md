@@ -1,6 +1,7 @@
 # React App Setup with Vite and Bun
 
 ## Table of Contents
+
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
 3. [Installation](#installation)
@@ -17,13 +18,23 @@ Before setting up the dev env, ensure you have the following installed:
 
 - **Bun** (Latest version)
 
-### Installing Bun
+### Installing Bun (MacOS & Windows)
 
 To install Bun, run the following command in your terminal:
 
 ```sh
 curl -fsSL https://bun.sh/install | bash
 ```
+
+To install Bun on windows paste this into terminal:
+
+```sh
+powershell -c "irm bun.sh/install.ps1|iex"
+```
+
+Bun requires a minimum of Windows 10 version 1809.
+
+More info about installing Bun on Windows: https://bun.sh/docs/installation
 
 ## Installation
 
@@ -42,6 +53,7 @@ cd eldatomx_main
 ```
 
 ### 3. Install dependencies using Bun:
+
 ```sh
 bun install
 ```
