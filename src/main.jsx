@@ -4,6 +4,8 @@ import { BrowserRouter } from 'react-router-dom'
 
 import ElDatoApp from './ElDatoApp'
 
+import './index.css'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
