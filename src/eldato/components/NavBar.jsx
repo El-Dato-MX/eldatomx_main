@@ -46,7 +46,9 @@ export const NavBar = () => {
                   >
                   stathead
                 </Button>
-                <Button style={{padding:'0 1rem'}} >
+                <Button style={{padding:'0 1rem'}}
+                        href="https://scout.eldatomx.com"
+                >
                   scout
                 </Button>
               </Box>

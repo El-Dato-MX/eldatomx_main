@@ -9,25 +9,25 @@ export const DrawerComp = () => {
 
   return (
     <>
-        <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)}>
-          <List sx={{width:'150px'}}>
-                {/* SCOUT DRAWER LINK */}
-                <ListItemButton onClick={() =>setOpenDrawer(false)} component={Link} to="https://stathead.eldatomx.com">
-                  <ListItemIcon >
-                    <ListItemText>STATHEAD</ListItemText>
-                  </ListItemIcon>
-                </ListItemButton>
-                {/* SCOUT DRAWER LINK */}
-                <ListItemButton onClick={() =>setOpenDrawer(false)} component={Link} to="">
-                  <ListItemIcon >
-                    <ListItemText>SCOUT</ListItemText>
-                  </ListItemIcon>
-                </ListItemButton>
-          </List>
-        </Drawer>
-        <IconButton sx={{ color:'white', marginLeft:'auto' }} onClick={()=>setOpenDrawer(!openDrawer)}>
-          <MenuIcon />
-        </IconButton>
+      <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)}>
+        <List sx={{ width: '150px' }}>
+          {/* SCOUT DRAWER LINK */}
+          <ListItemButton onClick={() => setOpenDrawer(false)} component={Link} to="https://stathead.eldatomx.com">
+            <ListItemIcon >
+              <ListItemText>STATHEAD</ListItemText>
+            </ListItemIcon>
+          </ListItemButton>
+          {/* SCOUT DRAWER LINK */}
+          <ListItemButton onClick={() => setOpenDrawer(false)} component={Link} to="https://scout.eldatomx.com">
+            <ListItemIcon >
+              <ListItemText>SCOUT</ListItemText>
+            </ListItemIcon>
+          </ListItemButton>
+        </List>
+      </Drawer>
+      <IconButton sx={{ color: 'white', marginLeft: 'auto' }} onClick={() => setOpenDrawer(!openDrawer)}>
+        <MenuIcon />
+      </IconButton>
     </>
   )
 }
