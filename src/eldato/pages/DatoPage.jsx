@@ -70,7 +70,7 @@ const DatoPage = () => {
               Somos El Dato MX
             </Typography>
             <Typography sx={{fontFamily: 'SeravekBasic, sans-serif', mb: 4, fontSize: { xs: '0.875rem', sm: '1rem' }}}>
-              El Dato MX es donde redefinimos la intersección entre deporte y tecnología. Somos la plataforma que democratiza las estadísticas y análisis deportivos para los fanáticos de habla hispana. Imagina tener todo el poder de los números del deporte en la palma de tu mano, explicado de una manera que hasta tu tío que odia las matemáticas entendería. Estamos aquí para convertir datos complejos en información que realmente puedas usar, ya sea para impresionar a tus amigos o dominar tu liga de fantasía.
+              El Dato MX es donde redefinimos la intersección entre deporte y tecnología. Somos la plataforma que democratiza las estadísticas y análisis deportivos para los fanáticos de habla hispana. Imagina tener todo el poder de las estadísticas deportivas en la palma de tu mano, explicado de una manera que hasta tu tío que odia las matemáticas entendería. Estamos aquí para convertir datos complejos en información que realmente puedas usar, ya sea para impresionar a tus amigos o dominar tu liga de fantasía.
             </Typography>
 
             <Typography variant="h4" gutterBottom sx={{borderBottom: '2px solid #333', pb: 2, mb: 4, fontSize: { xs: '1.5rem', sm: '2rem', md: '2.125rem' }}}>
